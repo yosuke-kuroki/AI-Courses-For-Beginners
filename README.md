@@ -1,6 +1,6 @@
 ## AI courses for beginners
 
-#Linear Regression
+# Linear Regression
 
 https://developers.google.com/machine-learning/crash-course/linear-regression/programming-exercise
 
