@@ -20,4 +20,4 @@ https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercise
 
 - [Logistic Regression](https://developers.google.com/machine-learning/crash-course/logistic-regression)
 
-<img src="https://github.com/yosuke-kuroki/AI-Linear-Regression-For-Beginners/blob/ab2b7ac187ebc58cb8697a2ec3df7265934e4f18/images/1.png" width="100%">
+<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/b7340841c0d0226a69b932a2a82f011d9c4b7ce8/images/1.png" width="100%">
