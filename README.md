@@ -1,7 +1,14 @@
+# AI courses for beginners
 
-## AI courses for beginners
+## Linear Regression
 
-# Linear Regression
+- [Linear regression](https://developers.google.com/machine-learning/crash-course/linear-regression)
+
+- [Loss](https://developers.google.com/machine-learning/crash-course/linear-regression/loss)
+
+- [Gradient Descent](https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent)
+
+- [Hyperparameters](https://developers.google.com/machine-learning/crash-course/linear-regression/hyperparameters)
 
 https://developers.google.com/machine-learning/crash-course/linear-regression/programming-exercise
 
