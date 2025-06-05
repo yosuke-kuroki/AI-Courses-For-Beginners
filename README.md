@@ -11,6 +11,8 @@
 
 - [Hyperparameters](https://developers.google.com/machine-learning/crash-course/linear-regression/hyperparameters)
 
+### Exercise
+
 https://developers.google.com/machine-learning/crash-course/linear-regression/programming-exercise
 
 https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercises/linear_regression_taxi.ipynb?utm_source=mlcc&utm_campaign=colab-external&utm_medium=referral&utm_content=linear_regression#scrollTo=6sjix7lXI7xT
@@ -22,6 +24,10 @@ https://colab.research.google.com/github/google/eng-edu/blob/main/ml/cc/exercise
 - This module introduces a new type of regression model called [logistic regression](https://developers.google.com/machine-learning/crash-course/logistic-regression) that is designed to predict the probability of a given outcome.
 
 <img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/b7340841c0d0226a69b932a2a82f011d9c4b7ce8/images/1.png" width="100%">
+
+### Exercise
+
+https://www.geeksforgeeks.org/ml-logistic-regression-using-python/
 
 ## 3. Classification
 
