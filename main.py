@@ -1,20 +1,33 @@
-from sklearn.datasets import load_iris
-from sklearn.tree import DecisionTreeClassifier
-iris = load_iris()
-X = iris.data[:, 2:] # petal length and width
-y = iris.target
-tree_clf = DecisionTreeClassifier(max_depth=2)
-tree_clf.fit(X, y)
+# import library
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeRegressor,plot_tree
 
-from sklearn.tree import export_graphviz
-export_graphviz(
- tree_clf,
- out_file=iris.image_path("iris_tree.dot"),
- feature_names=iris.feature_names[2:],
- class_names=iris.target_names,
- rounded=True,
- filled=True
- )
+df = pd.read_csv('https://github.com/YBIFoundation/Dataset/raw/main/Admission%20Chance.csv')
+df.head()
 
+y = df['Chance of Admit ']
+X = df.drop(['Serial No','Chance of Admit '], axis=1)
 
-print(X, y)
+X_train,X_test,y_train,y_test=train_test_split(X,y,train_size=0.8,random_state=2529)
+
+dtr=DecisionTreeRegressor(max_depth=3, random_state=2529)
+
+# train model
+dtr.fit(X_train,y_train)
+
+# evaluate the model on training sample
+print(dtr.score(X_train,y_train))
+
+print(dtr.score(X_test,y_test))
+
+print(dtr.get_params())
+
+# plot tree
+fig,ax = plt.subplots(figsize=(15,10))
+final=DecisionTreeRegressor(max_depth=3, random_state=2529)
+final.fit(X_train,y_train)
+plot_tree(final,feature_names=X.columns,filled=True)
