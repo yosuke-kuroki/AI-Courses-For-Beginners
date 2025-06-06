@@ -10,6 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 # Load the diabetes dataset
 diabetes = load_diabetes()
+print(diabetes)
 X, y = diabetes.data, diabetes.target
 
 # Convert the target variable to binary (1 for diabetes, 0 for no diabetes)
