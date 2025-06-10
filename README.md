@@ -58,7 +58,7 @@ https://www.geeksforgeeks.org/support-vector-machine-algorithm/
 
 - [K-Means Clustering](https://www.geeksforgeeks.org/k-means-clustering-introduction/) is an Unsupervised Machine Learning algorithm which groups unlabeled dataset into different clusters. It is used to organize data into groups based on their similarity.
 
-<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/b7340841c0d0226a69b932a2a82f011d9c4b7ce8/images/1.png" width="100%">
+<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/5a377bd0c29c091296e685287c7e6477c16beb7b/images/k-means.PNG" width="100%">
 
 ### Exercise
 
