@@ -33,7 +33,7 @@ https://www.geeksforgeeks.org/ml-logistic-regression-using-python/
 
 - [Classification](https://developers.google.com/machine-learning/crash-course/classification) is the task of predicting which of a set of classes (categories) an example belongs to. In this module, you'll learn how to convert a logistic regression model that predicts a probability into a binary classification model that predicts one of two classes. You'll also learn how to choose and calculate appropriate metrics to evaluate the quality of a classification model's predictions. Finally, you'll get a brief introduction to multi-class classification problems, which are discussed in more depth later in the course.
 
-## 3. Decision Trees
+## 4. Decision Trees
 
 - [Decision Trees](https://developers.google.com/machine-learning/crash-course/classification) are versatile Machine Learning algorithms that can per‐
   form both classification and regression tasks, and even multioutput tasks
@@ -44,3 +44,12 @@ Hands_On_Machine_Learning_with_Scikit_Learn_and_TensorFlow (191P)
 
 https://www.clc.hcmus.edu.vn/wp-content/uploads/2017/11/Hands_On_Machine_Learning_with_Scikit_Learn_and_TensorFlow.pdf
 https://www.kaggle.com/code/prashant111/decision-tree-classifier-tutorial
+https://www.w3schools.com/python/python_ml_decision_tree.asp
+
+## 5. SVM(Support Vector Machine Algorithm)
+
+- [Support Vector Machine (SVM)](https://www.geeksforgeeks.org/support-vector-machine-algorithm/) is a supervised machine learning algorithm used for classification and regression tasks. It tries to find the best boundary known as hyperplane that separates different classes in the data. It is useful when you want to do binary classification like spam vs. not spam or cat vs. dog.
+
+### Exercise
+
+https://www.geeksforgeeks.org/support-vector-machine-algorithm/
