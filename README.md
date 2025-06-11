@@ -63,3 +63,11 @@ https://www.geeksforgeeks.org/support-vector-machine-algorithm/
 ### Exercise
 
 https://www.geeksforgeeks.org/k-means-clustering-introduction/
+
+## 7. PCA(Principal Componenet Analysis)
+
+- [PCA](https://drlee.io/secrets-of-pca-a-comprehensive-guide-to-principal-component-analysis-with-python-and-colab-6f7f3142e721) is not just a mathematical technique; it’s a gateway to a more profound understanding of data, revealing patterns and relationships that might otherwise go unnoticed.
+
+### Exercise
+
+https://drlee.io/secrets-of-pca-a-comprehensive-guide-to-principal-component-analysis-with-python-and-colab-6f7f3142e721
