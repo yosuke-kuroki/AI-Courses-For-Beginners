@@ -6,28 +6,72 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor,plot_tree
 
-df = pd.read_csv('https://github.com/YBIFoundation/Dataset/raw/main/Admission%20Chance.csv')
-df.head()
+from sklearn.datasets import make_blobs
 
-y = df['Chance of Admit ']
-X = df.drop(['Serial No','Chance of Admit '], axis=1)
+X,y = make_blobs(n_samples = 500,n_features = 2,centers = 3,random_state = 23)
 
-X_train,X_test,y_train,y_test=train_test_split(X,y,train_size=0.8,random_state=2529)
+fig = plt.figure(0)
+plt.grid(True)
+plt.scatter(X[:,0],X[:,1])
+plt.show()
 
-dtr=DecisionTreeRegressor(max_depth=3, random_state=2529)
+k = 3
+clusters = {}
+np.random.seed(23)
+for i in range(k):
+  clusters[i] = {
+    'center': 2*(2*np.random.random((X.shape[1],))-1),
+    'points': []
+  }
 
-# train model
-dtr.fit(X_train,y_train)
+plt.scatter(X[:,0],X[:,1])
+plt.grid(True)
+for i in clusters:
+    center = clusters[i]['center']
+    plt.scatter(center[0],center[1],marker = '*',c = 'red')
+plt.show()
 
-# evaluate the model on training sample
-print(dtr.score(X_train,y_train))
+def distance(p1,p2):
+    return np.sqrt(np.sum((p1-p2)**2))
 
-print(dtr.score(X_test,y_test))
+def assign_clusters(X, clusters):
+    for idx in range(X.shape[0]):
+        dist = []
+        
+        curr_x = X[idx]
+        
+        for i in range(k):
+            dis = distance(curr_x,clusters[i]['center'])
+            dist.append(dis)
+        curr_cluster = np.argmin(dist)
+        clusters[curr_cluster]['points'].append(curr_x)
+    return clusters
 
-print(dtr.get_params())
+def update_clusters(X, clusters):
+    for i in range(k):
+        points = np.array(clusters[i]['points'])
+        if points.shape[0] > 0:
+            new_center = points.mean(axis =0)
+            clusters[i]['center'] = new_center
+            
+            clusters[i]['points'] = []
+    return clusters
 
-# plot tree
-fig,ax = plt.subplots(figsize=(15,10))
-final=DecisionTreeRegressor(max_depth=3, random_state=2529)
-final.fit(X_train,y_train)
-plot_tree(final,feature_names=X.columns,filled=True)
+def pred_cluster(X, clusters):
+    pred = []
+    for i in range(X.shape[0]):
+        dist = []
+        for j in range(k):
+            dist.append(distance(X[i],clusters[j]['center']))
+        pred.append(np.argmin(dist))
+    return pred
+
+clusters = assign_clusters(X,clusters)
+clusters = update_clusters(X,clusters)
+pred = pred_cluster(X,clusters)
+
+plt.scatter(X[:,0],X[:,1],c = pred)
+for i in clusters:
+    center = clusters[i]['center']
+    plt.scatter(center[0],center[1],marker = '^',c = 'red')
+plt.show()
