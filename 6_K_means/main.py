@@ -1,11 +1,6 @@
 # import library
-import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeRegressor,plot_tree
-
 from sklearn.datasets import make_blobs
 
 X,y = make_blobs(n_samples = 500,n_features = 2,centers = 3,random_state = 23)
