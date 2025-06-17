@@ -71,3 +71,13 @@ https://www.geeksforgeeks.org/k-means-clustering-introduction/
 ### Exercise
 
 https://drlee.io/secrets-of-pca-a-comprehensive-guide-to-principal-component-analysis-with-python-and-colab-6f7f3142e721
+
+## 8. Rainforcement Learning
+
+[Reinforcement Learning (RL)](https://www.geeksforgeeks.org/machine-learning/what-is-reinforcement-learning/) is a branch of machine learning that focuses on how agents can learn to make decisions through trial and error to maximize cumulative rewards.
+
+<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/5a377bd0c29c091296e685287c7e6477c16beb7b/images/k-means.PNG" width="100%">
+
+### Exercise
+
+https://www.geeksforgeeks.org/machine-learning/what-is-reinforcement-learning/
