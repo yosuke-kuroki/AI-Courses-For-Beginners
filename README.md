@@ -76,7 +76,7 @@ https://drlee.io/secrets-of-pca-a-comprehensive-guide-to-principal-component-ana
 
 [Reinforcement Learning (RL)](https://www.geeksforgeeks.org/machine-learning/what-is-reinforcement-learning/) is a branch of machine learning that focuses on how agents can learn to make decisions through trial and error to maximize cumulative rewards.
 
-<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/5a377bd0c29c091296e685287c7e6477c16beb7b/images/k-means.PNG" width="100%">
+<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/f6d63429934db3293acbe7fb74976d93d2471c45/images/rainforcement.PNG" width="100%">
 
 ### Exercise
 
