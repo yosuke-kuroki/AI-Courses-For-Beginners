@@ -82,7 +82,7 @@ https://drlee.io/secrets-of-pca-a-comprehensive-guide-to-principal-component-ana
 
 https://www.geeksforgeeks.org/machine-learning/what-is-reinforcement-learning/
 
-## 8. CNN in Deep Learning
+## 9. CNN in Deep Learning
 
 [A convolutional neural network (CNN)](https://www.simplilearn.com/tutorials/deep-learning-tutorial/convolutional-neural-network) is a feed-forward neural network that is generally used to analyze visual images by processing data with grid-like topology. It’s also known as a ConvNet. A convolutional neural network is used to detect and classify objects in an image.
 
