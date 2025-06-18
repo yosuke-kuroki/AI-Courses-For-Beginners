@@ -25,7 +25,7 @@ plt.figure(figsize=(5, 5))
 plt.imshow(img, cmap='gray')
 plt.axis('off')
 plt.title('Original Gray Scale image')
-plt.show();
+plt.show()
 
 
 # Reformat
