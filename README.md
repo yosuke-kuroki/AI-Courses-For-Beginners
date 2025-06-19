@@ -93,3 +93,13 @@ https://www.geeksforgeeks.org/machine-learning/what-is-reinforcement-learning/
 https://www.simplilearn.com/tutorials/deep-learning-tutorial/convolutional-neural-network
 
 https://www.geeksforgeeks.org/machine-learning/introduction-convolution-neural-network/
+
+## 10. RNN in Deep Learning
+
+[Recurrent Neural Networks (RNN)](https://www.geeksforgeeks.org/introduction-to-recurrent-neural-network/) differ from regular neural networks in how they process information. While standard neural networks pass information in one direction i.e from input to output, RNNs feed information back into the network at each step.
+
+<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/d5ba86526d1e9b8c37007176b8a3b55b72a28ad8/images/CNN.PNG" width="100%">
+
+### Exercise
+
+https://www.geeksforgeeks.org/introduction-to-recurrent-neural-network/
