@@ -116,7 +116,7 @@ They consist of an:
 
 - Decoder that rebuilds the data from this compressed representation.
 
-<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/3cd4497b011fb2f65131aa5422f2435ab4a60633/images/RNN.PNG" width="100%">
+<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/58d2de99678be40b6bbb34e103c1e560d4bf9230/images/autoencoders.PNG" width="100%">
 
 ### Exercise
 
