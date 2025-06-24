@@ -105,3 +105,19 @@ Imagine reading a sentence and you try to predict the next word, you don’t rel
 ### Exercise
 
 https://www.geeksforgeeks.org/introduction-to-recurrent-neural-network/
+
+## 11. Autoencoders in Machine Learning
+
+[Autoencoders](https://www.geeksforgeeks.org/machine-learning/auto-encoders/#) are a special type of neural networks that learn to compress data into a compact form and then reconstruct it to closely match the original input.
+
+They consist of an:
+
+- Encoder that captures important features by reducing dimensionality.
+
+- Decoder that rebuilds the data from this compressed representation.
+
+<img src="https://github.com/yosuke-kuroki/AI-Courses-For-Beginners/blob/3cd4497b011fb2f65131aa5422f2435ab4a60633/images/RNN.PNG" width="100%">
+
+### Exercise
+
+https://www.geeksforgeeks.org/machine-learning/auto-encoders/#
